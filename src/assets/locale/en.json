@@ -7,6 +7,12 @@
   "change-lang": "Змінити мову на Українську",
   "tabs": {
     "personal-qualities": "Personal qualities",
-    "professional-skills-and-abilities": "Professional skills and abilities"
+    "professional-skills-and-abilities": "Professional skills and abilities",
+    "plans-for-the-future": "Plans for the future"
+  },
+  "profile": {
+    "name": "Volodymyr Polishchuk",
+    "short-info": "Engineer, Architect, Team Leader",
+    "skills": "Skills"
   }
 }

@@ -22,9 +22,33 @@
     </div>
   </div>
 </nav>
-<div class="container">
-  <router-outlet>
+<div class="container content-center">
+  <div class="header">
+    <div class="profile-image">
+      <img src="assets/profile-image.png" alt="Profile image">
+    </div>
 
-  </router-outlet>
-  Hello world
+    <div class="profile-info">
+      <h1 class="profile-name">
+        {{ 'profile.name' | translate }}
+      </h1>
+      <h3 class="text-muted">
+        {{ 'profile.short-info' | translate }}
+      </h3>
+    </div>
+  </div>
+
+  <div class="middle">
+    <div class="btn-group" role="group" aria-label="Basic example">
+      <button type="button" class="btn btn-secondary active">{{ 'tabs.personal-qualities' | translate }}</button>
+      <button type="button" class="btn btn-secondary">{{ 'tabs.professional-skills-and-abilities' | translate }}</button>
+      <button type="button" class="btn btn-secondary">{{ 'tabs.plans-for-the-future' | translate }}</button>
+    </div>
+
+    <router-outlet>
+
+    </router-outlet>
+  </div>
+
+
 </div>

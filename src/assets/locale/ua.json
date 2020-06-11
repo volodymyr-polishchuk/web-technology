@@ -7,6 +7,12 @@
   "change-lang": "Change language to English",
   "tabs": {
     "personal-qualities": "Персональні якості",
-    "professional-skills-and-abilities": "Професійні навички і вміння"
+    "professional-skills-and-abilities": "Професійні навички і вміння",
+    "plans-for-the-future": "Плани на майбутнє"
+  },
+  "profile": {
+    "name": "Володимир Поліщук",
+    "short-info": "Інженер, Архітектор, Лідер",
+    "skills": "Навики"
   }
 }

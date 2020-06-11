@@ -1,0 +1,24 @@
+.content-center {
+
+  .header {
+    padding-top: 2rem;
+    display: flex;
+
+    .profile-image {
+      img {
+        border-radius: 50%;
+        max-width: 200px;
+      }
+    }
+
+    .profile-info {
+      padding-left: 3rem;
+    }
+
+  }
+
+  .middle {
+    padding-top: 2rem;
+  }
+
+}
