@@ -25,11 +25,11 @@
     "leader": "Leader"
   },
   "plans-for-the-future": {
-    "2020-q1": "Вивчення Kubernetes",
-    "2020-q2": "Вивчення AWS",
-    "2020-q3": "Вивчення Go",
-    "2020-q4": "Вивчення Rust",
-    "2021-q1": "Вивчення GCE"
+    "2020-q1": "Study of Kubernetes",
+    "2020-q2": "Study of AWS",
+    "2020-q3": "Study of Go",
+    "2020-q4": "Study of Rust",
+    "2021-q1": "Study of GCE"
   },
   "profile": {
     "name": "Volodymyr Polishchuk",
