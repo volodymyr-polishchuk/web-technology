@@ -1,3 +1,12 @@
 {
-  "lang": "UA"
+  "lang": "UA",
+  "title": "Персональна сторінка",
+  "header": {
+    "home": "Дім"
+  },
+  "change-lang": "Change language to English",
+  "tabs": {
+    "personal-qualities": "Персональні якості",
+    "professional-skills-and-abilities": "Професійні навички і вміння"
+  }
 }

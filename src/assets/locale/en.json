@@ -1,3 +1,12 @@
 {
-  "lang": "EN"
+  "lang": "EN",
+  "title": "Personal page",
+  "header": {
+    "home": "Home"
+  },
+  "change-lang": "Змінити мову на Українську",
+  "tabs": {
+    "personal-qualities": "Personal qualities",
+    "professional-skills-and-abilities": "Professional skills and abilities"
+  }
 }

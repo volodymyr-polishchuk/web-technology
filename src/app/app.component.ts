@@ -9,10 +9,15 @@ import {environment} from '../environments/environment';
 })
 export class AppComponent implements OnInit {
   title = 'Web Technology';
+  private lang = 0;
 
   constructor(private translateService: TranslateService) {}
 
   ngOnInit(): void {
     this.translateService.use(environment.locales[1]);
+  }
+
+  selectNextLang() {
+    this.translateService.use(environment.locales[this.lang++ % 2]);
   }
 }
