@@ -12,6 +12,10 @@
       img {
         border-radius: 50%;
         max-width: 200px;
+
+        @media (max-width: 300px) {
+          max-width: 50px;
+        }
       }
     }
 
@@ -49,6 +53,10 @@
           }
         }
       }
+    }
+
+    router-outlet {
+      margin-left: 1rem;
     }
   }
 
