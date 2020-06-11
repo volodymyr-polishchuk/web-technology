@@ -8,7 +8,7 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item active">
-          <a class="nav-link" href="/home">{{ 'header.home' | translate }}</a>
+          <a class="nav-link" href="/">{{ 'header.home' | translate }}</a>
         </li>
       </ul>
     </div>
@@ -16,7 +16,7 @@
     <div class="y-2 my-lg-0">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item active">
-          <a class="nav-link" href="#" (click)="selectNextLang()">{{ 'change-lang' | translate }}</a>
+          <a class="nav-link change-lang" (click)="selectNextLang()">{{ 'change-lang' | translate }}</a>
         </li>
       </ul>
     </div>
@@ -38,17 +38,33 @@
     </div>
   </div>
 
-  <div class="middle">
-    <div class="btn-group" role="group" aria-label="Basic example">
-      <button type="button" class="btn btn-secondary active">{{ 'tabs.personal-qualities' | translate }}</button>
-      <button type="button" class="btn btn-secondary">{{ 'tabs.professional-skills-and-abilities' | translate }}</button>
-      <button type="button" class="btn btn-secondary">{{ 'tabs.plans-for-the-future' | translate }}</button>
+  <hr>
+
+  <main class="middle">
+    <div class="content">
+      <ul>
+        <li class="active">
+          <a routerLink="personal-qualities">
+            {{ 'tabs.personal-qualities' | translate }}
+          </a>
+        </li>
+        <li>
+          <a routerLink="professional-skills-and-abilities">
+            {{ 'tabs.professional-skills-and-abilities' | translate }}
+          </a>
+        </li>
+        <li>
+          <a routerLink="plans-for-the-future">
+            {{ 'tabs.plans-for-the-future' | translate }}
+          </a>
+        </li>
+      </ul>
     </div>
 
     <router-outlet>
 
     </router-outlet>
-  </div>
+  </main>
 
 
 </div>
