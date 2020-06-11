@@ -24,6 +24,13 @@
     "technical": "Інженерні",
     "leader": "Лідерські"
   },
+  "plans-for-the-future": {
+    "2020-q1": "Study of Kubernetes",
+    "2020-q2": "Study of AWS",
+    "2020-q3": "Study of Go",
+    "2020-q4": "Study of Rust",
+    "2021-q1": "Study of GCE"
+  },
   "profile": {
     "name": "Володимир Поліщук",
     "short-info": "Інженер, Архітектор, Лідер",
