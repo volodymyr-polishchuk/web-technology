@@ -10,6 +10,20 @@
     "professional-skills-and-abilities": "Professional skills and abilities",
     "plans-for-the-future": "Plans for the future"
   },
+  "personal-qualities": {
+    "stress-resistance": "Stress Resistance",
+    "sociability": "Sociability",
+    "great-willpower": "Great willpower",
+    "striving-for-improvement": "Striving for improvement",
+    "high-efficiency": "High efficiency",
+    "focus-on-the-result": "Focus on the result",
+    "organization": "Organization",
+    "industry": "Industry"
+  },
+  "professional-skills-and-abilities": {
+    "technical": "Engineer",
+    "leader": "Leader"
+  },
   "profile": {
     "name": "Volodymyr Polishchuk",
     "short-info": "Engineer, Architect, Team Leader",

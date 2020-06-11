@@ -10,6 +10,20 @@
     "professional-skills-and-abilities": "Професійні навички і вміння",
     "plans-for-the-future": "Плани на майбутнє"
   },
+  "personal-qualities": {
+    "stress-resistance": "стресостійкість",
+    "sociability": "контактність",
+    "great-willpower": "велика сила волі",
+    "striving-for-improvement": "прагнення до вдосконалення",
+    "high-efficiency": "висока працездатність",
+    "focus-on-the-result": "націленість на результат",
+    "organization": "організованість",
+    "industry": "працьовитість"
+  },
+  "professional-skills-and-abilities": {
+    "technical": "Інженерні",
+    "leader": "Лідерські"
+  },
   "profile": {
     "name": "Володимир Поліщук",
     "short-info": "Інженер, Архітектор, Лідер",

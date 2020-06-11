@@ -1,0 +1,15 @@
+.skill-box {
+  margin-top: 1rem;
+
+  >* {
+    flex: 1;
+    min-width: 12rem;
+    margin-right: 1rem;
+  }
+}
+
+.card-text {
+  ul {
+    padding-left: 1rem;
+  }
+}
